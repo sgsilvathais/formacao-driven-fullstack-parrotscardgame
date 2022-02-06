@@ -8,3 +8,33 @@ h1{
     text-align: center;
     margin-top: 40px;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* background-color: red; */
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.card {
+    width: 117px;
+    height: 146px;
+    background-color:#A7E9AF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-face img {
+    width: 100px;
+}
